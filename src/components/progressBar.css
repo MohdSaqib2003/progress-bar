@@ -1,0 +1,25 @@
+.progress-bar {
+  background-color: white;
+  border: 1px solid black;
+  height: 24px;
+  border-radius: 15px;
+  width: 50%;
+  margin: auto;
+  overflow: auto;
+  display: flex;
+  align-items: center;
+  position: relative;
+
+  span {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  div {
+    background-color: #81cc0f;
+    height: inherit;
+  }
+}
